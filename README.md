@@ -1,5 +1,17 @@
 # Node GraphQL Code Test
 
+This codebase leverages **[swc-node](https://github.com/swc-project/swc-node)** for fast TypeScript execution, enabling rapid builds and efficient runtime transformations. Paired with **[nodemon](https://nodemon.io/)**, the server quickly reloads when code changes are saved, which even includes updating the port configuration without needing a manual restart! It integrates **[GraphQL Yoga](https://the-guild.dev/graphql/yoga-server)** to handle GraphQL queries and mutations, and **[SuperTest](https://github.com/visionmedia/supertest)** for endpoint testing.
+
+<br/>
+<br/>
+
+---
+
+<br/>
+<br/>
+
+# Start the environment
+
 ## Ensure that you have [pnpm](https://pnpm.io/) installed. If not, follow the steps below:
 
 ### Install pnpm
