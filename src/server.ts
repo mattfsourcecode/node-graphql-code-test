@@ -34,7 +34,43 @@ app.use(morgan("dev"));
  * - `X-Content-Type-Options`: Prevents browsers from interpreting files as a different MIME type.
  * - `X-Permitted-Cross-Domain-Policies`: Restricts Adobe Flash or PDF cross-domain requests.
  */
-app.use(helmet());
+app.use(
+  helmet({
+    // Enable and configure Content-Security-Policy
+    contentSecurityPolicy: {
+      directives: {
+        defaultSrc: ["'self'"],
+        scriptSrc: ["'self'"],
+        styleSrc: ["'self'", "'unsafe-inline'"],
+        imgSrc: ["'self'", "data:"],
+        connectSrc: ["'self'"],
+        fontSrc: ["'self'"],
+        objectSrc: ["'none'"],
+        upgradeInsecureRequests: [],
+      },
+    },
+    // Enable X-Frame-Options
+    frameguard: {
+      action: "deny",
+    },
+    // Enable Strict-Transport-Security
+    hsts: {
+      maxAge: 31536000, // 1 year in seconds
+      includeSubDomains: true,
+      preload: true,
+    },
+    // Enable X-DNS-Prefetch-Control
+    dnsPrefetchControl: {
+      allow: false,
+    },
+    // Enable X-Content-Type-Options
+    noSniff: true,
+    // Enable X-Permitted-Cross-Domain-Policies
+    permittedCrossDomainPolicies: {
+      permittedPolicies: "none",
+    },
+  })
+);
 
 /**
  * Global middleware: Custom CORS Handler
