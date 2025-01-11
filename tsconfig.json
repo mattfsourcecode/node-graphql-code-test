@@ -1,19 +1,22 @@
 {
   "compilerOptions": {
-    "moduleResolution": "NodeNext",
-    "target": "ESNext",
-    "module": "NodeNext",
-    "strict": true,
-    "esModuleInterop": true,
-    "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true,
-    "noEmit": true,
-    "allowJs": true,
-    "resolveJsonModule": true,
-    "declaration": false,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true
+    "moduleResolution": "NodeNext", // Good for ESM and modern Node.js
+    "target": "ESNext", // Keeps output optimized for modern environments
+    "module": "NodeNext", // Matches modern ESM for Node.js
+    "strict": true, // Enforces strong typing (recommended)
+    "esModuleInterop": true, // Ensures compatibility with CommonJS modules
+    "skipLibCheck": true, // Speeds up build time by skipping type checks on .d.ts files
+    "forceConsistentCasingInFileNames": true, // Enforces case-sensitive imports
+    "noEmit": true, // Disables emitting files (since SWC handles it)
+    "allowJs": true, // Allows using .js files if needed
+    "resolveJsonModule": true, // Enables JSON imports
+    "declaration": false, // SWC doesn't generate `.d.ts` files, so no need for this
+    "noUnusedLocals": true, // Helps catch unused variables
+    "noUnusedParameters": true, // Helps catch unused function parameters
+    "noFallthroughCasesInSwitch": true, // Ensures switch cases have proper fallthrough handling
+    "allowSyntheticDefaultImports": true, // Simplifies default imports in ESM/CommonJS interop
+    "useDefineForClassFields": true, // Aligns with JavaScript class field semantics
+    "isolatedModules": true // Required for SWC and other transpilers
   },
   "include": ["src/**/*"],
   "exclude": ["node_modules", "dist"]
