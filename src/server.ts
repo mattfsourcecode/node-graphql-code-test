@@ -1,4 +1,10 @@
-import express, { Express, Request, Response, NextFunction } from "express";
+import express, {
+  Express,
+  Request,
+  Response,
+  NextFunction,
+  RequestHandler,
+} from "express";
 import rateLimit from "express-rate-limit";
 import morgan from "morgan";
 import helmet from "helmet";
@@ -83,9 +89,9 @@ app.use(
  * - Rejects unauthorized request methods with a 405 Method Not Allowed response.
  */
 const allowedOrigin = process.env.ORIGIN_FRONTEND || "*"; // Used for development. This should be switched to an environment variable initialized at runtime for production.
-app.use((req, res, next) => {
-  const requestOrigin = allowedOrigin === "*" ? "*" : req.headers.origin;
 
+const corsMiddleware: RequestHandler = (req, res, next): void => {
+  const requestOrigin = allowedOrigin === "*" ? "*" : req.headers.origin;
   // Allow only specific frontend origins
   if (requestOrigin === allowedOrigin) {
     // Allow POST and OPTIONS requests
@@ -108,21 +114,27 @@ app.use((req, res, next) => {
 
       // Responds to the browser's preflight request (OPTIONS method) to confirm that the actual request is allowed.
       if (req.method === "OPTIONS") {
-        return res.sendStatus(200); // Send a 200 OK response for preflight
+        res.sendStatus(200); // Send a 200 OK response for preflight
+        return;
       }
 
       next(); // Proceed to the next middleware or route handler
+      return;
     } else {
       // Block requests with unsupported methods
       res.status(405).json({ message: "Method Not Allowed" });
+      return;
     }
   } else {
     // Reject requests from origins that are not allowed according to the CORS policy.
     res
       .status(403)
       .json({ message: "Forbidden: CORS policy blocked this request." });
+    return;
   }
-});
+};
+
+app.use("/", corsMiddleware);
 
 /**
  * Global middleware: `express.json()`
