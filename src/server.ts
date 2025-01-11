@@ -184,8 +184,8 @@ const graphqlRateLimiter = rateLimit({
  * @param {NextFunction} next - Function to pass control to the next middleware
  */
 const validateToken = (
-  req: Request,
-  res: Response,
+  _req: Request,
+  _res: Response,
   next: NextFunction
 ): void => {
   // const token = req.cookies?.accessToken; // Extract token from cookies
