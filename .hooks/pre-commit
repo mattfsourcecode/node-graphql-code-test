@@ -1,0 +1,34 @@
+#!/usr/bin/env zsh
+
+echo "Running pre-commit checks..."
+
+# Function to handle errors
+handle_error() {
+    local error_code=$1
+    local command=$2
+
+    case $error_code in
+        1)
+            echo "[0;31mError: $command failed. Please fix the issues and try again.[0m"
+            ;;
+        127)
+            echo "[0;31mError: Command  not found. Make sure pnpm is installed.[0m"
+            ;;
+        *)
+            echo "[0;31mError: Unknown error occurred while running $command (Exit code: $error_code)[0m"
+            ;;
+    esac
+
+    exit $error_code
+}
+
+# Run tests
+echo "[0;34mRunning tests...[0m"
+pnpm test || handle_error $? "tests"
+
+# Run build
+echo "[0;34mRunning build...[0m"
+pnpm build || handle_error $? "build"
+
+echo "[0;32mAll checks passed! Proceeding with commit.[0m"
+exit 0
