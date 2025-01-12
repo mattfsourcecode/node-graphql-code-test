@@ -4,8 +4,9 @@ import { findAvailablePort } from "@/utils/ports";
 import { IncomingMessage, Server, ServerResponse } from "http";
 
 /**
- * NOTE: Testing suite currently requires the dev server on port 3000 to be stopped.
- * TODO: Implement a way to run the tests on a different port.
+ * This file contains integration tests for the GraphQL server using SuperTest.
+ * The test suite runs on a dynamically selected port to avoid conflicts with
+ * the development server, allowing both to run simultaneously.
  */
 
 interface GraphQLResponse {
