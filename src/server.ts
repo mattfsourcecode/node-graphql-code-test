@@ -11,6 +11,9 @@ import helmet from "helmet";
 import { createYoga, createSchema, YogaServerInstance } from "graphql-yoga";
 import { typeDefs, resolvers } from "@/graphql";
 import { Server } from "http";
+import dotenv from "dotenv";
+
+dotenv.config();
 
 const app: Express = express();
 
