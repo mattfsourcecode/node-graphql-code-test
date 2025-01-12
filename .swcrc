@@ -7,11 +7,18 @@
       "syntax": "typescript",
       "tsx": false,
       "decorators": false,
-      "dynamicImport": false
+      "dynamicImport": true
     },
     "minify": {
       "compress": true,
       "mangle": true
     }
+  },
+  "module": {
+    "type": "nodenext",
+    "strict": true,
+    "strictMode": true,
+    "lazy": false,
+    "noInterop": true
   }
 }

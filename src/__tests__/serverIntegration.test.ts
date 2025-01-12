@@ -1,5 +1,5 @@
 import request from "supertest";
-import { app, server } from "../server";
+import { app, server } from "@/server";
 
 /**
  * NOTE: Testing suite currently requires the dev server on port 3000 to be stopped.
