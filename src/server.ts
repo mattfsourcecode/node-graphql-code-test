@@ -214,10 +214,25 @@ const yoga: YogaServerInstance<object, object> = createYoga({
 });
 
 app.use("/graphql", graphqlRateLimiter, validateToken, yoga);
+const createServer = (customPort?: string): Promise<Server> => {
+  const port = customPort ?? process.env.PORT ?? "3000";
+  return new Promise((resolve, reject) => {
+    const server = app.listen(port, () => {
+      console.log(`Server is running on http://localhost:${port}/graphql`);
+      resolve(server);
+    });
 
-const port: string = process.env.PORT ?? "3000";
-const server: Server = app.listen(port, () => {
-  console.log(`Server is running on http://localhost:${port}/graphql`);
-});
+    server.on("error", (err) => {
+      reject(err);
+    });
+  });
+};
 
-export { app, server };
+let server: Server | null = null;
+if (process.env.NODE_ENV !== "test") {
+  void createServer().then((s) => {
+    server = s;
+  });
+}
+
+export { app, server, createServer };
