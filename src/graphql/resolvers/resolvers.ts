@@ -1,4 +1,4 @@
-import seedData from "../../data/seed";
+import seedData from "@/data/seed";
 import { IResolvers } from "@graphql-tools/utils";
 
 export const resolvers: IResolvers = {

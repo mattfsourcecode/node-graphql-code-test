@@ -1,5 +1,5 @@
 // src/graphql/index.js
-import { typeDefs } from "./schema/typeDefs";
-import { resolvers } from "./resolvers/resolvers";
+import { typeDefs } from "@/graphql/schema/typeDefs";
+import { resolvers } from "@/graphql/resolvers/resolvers";
 
 export { typeDefs, resolvers };

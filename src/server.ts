@@ -9,7 +9,7 @@ import rateLimit from "express-rate-limit";
 import morgan from "morgan";
 import helmet from "helmet";
 import { createYoga, createSchema, YogaServerInstance } from "graphql-yoga";
-import { typeDefs, resolvers } from "./graphql";
+import { typeDefs, resolvers } from "@/graphql";
 import { Server } from "http";
 
 const app: Express = express();
