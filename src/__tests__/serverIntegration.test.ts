@@ -1,15 +1,25 @@
 import request from "supertest";
-import { app, server } from "@/server";
+import { app, createServer } from "@/server";
+import { findAvailablePort } from "@/utils/ports";
+import { IncomingMessage, Server, ServerResponse } from "http";
 
 /**
- * NOTE: Testing suite currently requires the dev server on port 3000 to be stopped.
- * TODO: Implement a way to run the tests on a different port.
+ * This file contains integration tests for the GraphQL server using SuperTest.
+ * The test suite runs on a dynamically selected port to avoid conflicts with
+ * the development server, allowing both to run simultaneously.
  */
 
 interface GraphQLResponse {
   data?: Record<string, unknown>;
   errors?: Array<{ message: string }>;
 }
+
+let testServer: Server<typeof IncomingMessage, typeof ServerResponse>;
+
+beforeAll(async () => {
+  const port: number = await findAvailablePort(4000);
+  testServer = await createServer(port.toString());
+});
 
 describe("GraphQL Server", () => {
   test("should return the correct menu data from the GraphQL query", async () => {
@@ -68,7 +78,7 @@ describe("GraphQL Server", () => {
   });
 });
 
-// Close the server after tests are complete
-afterAll(() => {
-  server.close();
+// Close the test server after tests are complete
+afterAll((done) => {
+  testServer.close(done);
 });
