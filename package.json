@@ -8,7 +8,9 @@
     "start": "node dist/server.js",
     "build": "swc src -d dist",
     "test": "jest",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "prepare-hooks": "chmod +x scripts/install-hooks.zsh && ./scripts/install-hooks.zsh",
+    "prepare": "pnpm prepare-hooks"
   },
   "author": "mattfsourcecode",
   "dependencies": {
