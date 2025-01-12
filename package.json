@@ -4,7 +4,7 @@
   "description": "",
   "main": "dist/server.js",
   "scripts": {
-    "dev": "nodemon --inspect --watch \"src/**/*.ts\" --exec \"node -r @swc-node/register\" src/server.ts",
+    "dev": "nodemon --inspect --watch \".\" --watch \".swcrc\" --ext \"ts,js,mjs,json,md,sh,zsh,env\" --exec \"node -r @swc-node/register\" src/server.ts",
     "start": "node dist/server.js",
     "build": "swc src -d dist",
     "test": "jest",
