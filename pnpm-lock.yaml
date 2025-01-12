@@ -64,6 +64,12 @@ devDependencies:
   '@types/supertest':
     specifier: ^6.0.2
     version: 6.0.2
+  '@typescript-eslint/eslint-plugin':
+    specifier: ^8.19.1
+    version: 8.19.1(@typescript-eslint/parser@8.19.1)(eslint@9.18.0)(typescript@5.7.3)
+  '@typescript-eslint/parser':
+    specifier: ^8.19.1
+    version: 8.19.1(eslint@9.18.0)(typescript@5.7.3)
   eslint:
     specifier: ^9.18.0
     version: 9.18.0
