@@ -1,7 +1,7 @@
 import request from "supertest";
 import { app, createServer } from "@/server";
 import { findAvailablePort } from "@/utils/ports";
-import { Server } from "http";
+import { IncomingMessage, Server, ServerResponse } from "http";
 
 /**
  * NOTE: Testing suite currently requires the dev server on port 3000 to be stopped.
@@ -13,7 +13,7 @@ interface GraphQLResponse {
   errors?: Array<{ message: string }>;
 }
 
-let testServer: Server;
+let testServer: Server<typeof IncomingMessage, typeof ServerResponse>;
 
 beforeAll(async () => {
   const port: number = await findAvailablePort(4000);

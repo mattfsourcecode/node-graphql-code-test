@@ -10,7 +10,7 @@ import morgan from "morgan";
 import helmet from "helmet";
 import { createYoga, createSchema, YogaServerInstance } from "graphql-yoga";
 import { typeDefs, resolvers } from "@/graphql";
-import { Server } from "http";
+import { IncomingMessage, Server, ServerResponse } from "http";
 import dotenv from "dotenv";
 
 dotenv.config();
@@ -214,13 +214,15 @@ const yoga: YogaServerInstance<object, object> = createYoga({
 });
 
 app.use("/graphql", graphqlRateLimiter, validateToken, yoga);
+
 const createServer = (customPort?: string): Promise<Server> => {
-  const port = customPort ?? process.env.PORT ?? "3000";
+  const port: string = customPort ?? process.env.PORT ?? "3000";
   return new Promise((resolve, reject) => {
-    const server = app.listen(port, () => {
-      console.log(`Server is running on http://localhost:${port}/graphql`);
-      resolve(server);
-    });
+    const server: Server<typeof IncomingMessage, typeof ServerResponse> =
+      app.listen(port, () => {
+        console.log(`Server is running on http://localhost:${port}/graphql`);
+        resolve(server);
+      });
 
     server.on("error", (err) => {
       reject(err);

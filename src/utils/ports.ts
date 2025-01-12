@@ -1,11 +1,11 @@
 import net from "net";
 
-export const findAvailablePort = async (
-  startPort: number = 4000
-): Promise<number> => {
+export const findAvailablePort: (
+  startPort?: number
+) => Promise<number> = async (startPort: number = 4000): Promise<number> => {
   const isPortAvailable = (port: number): Promise<boolean> => {
     return new Promise((resolve) => {
-      const server = net.createServer();
+      const server: net.Server = net.createServer();
       server.once("error", () => {
         resolve(false);
       });
@@ -17,7 +17,7 @@ export const findAvailablePort = async (
     });
   };
 
-  let port = startPort;
+  let port: number = startPort;
   while (!(await isPortAvailable(port))) {
     port++;
   }
