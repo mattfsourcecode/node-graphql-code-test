@@ -88,7 +88,7 @@ app.use(
  * - Rejects unauthorized origins with a 403 Forbidden response.
  * - Rejects unauthorized request methods with a 405 Method Not Allowed response.
  */
-const allowedOrigin = process.env.ORIGIN_FRONTEND || "*"; // Used for development. This should be switched to an environment variable initialized at runtime for production.
+const allowedOrigin = process.env.ORIGIN_FRONTEND ?? "*"; // Used for development. This should be switched to an environment variable initialized at runtime for production.
 
 const corsMiddleware: RequestHandler = (req, res, next): void => {
   const requestOrigin = allowedOrigin === "*" ? "*" : req.headers.origin;
@@ -212,7 +212,7 @@ const yoga: YogaServerInstance<object, object> = createYoga({
 
 app.use("/graphql", graphqlRateLimiter, validateToken, yoga);
 
-const port: string = process.env.PORT || "3000";
+const port: string = process.env.PORT ?? "3000";
 const server: Server = app.listen(port, () => {
   console.log(`Server is running on http://localhost:${port}/graphql`);
 });
