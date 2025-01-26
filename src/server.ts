@@ -231,9 +231,20 @@ const createServer = (customPort?: string): Promise<Server> => {
 };
 
 let server: Server | null = null;
+/**
+ * The createServer function returns a Promise, ensuring the server can
+ * handle requests before use. In the test environment, the beforeAll hook
+ * uses this Promise to start the server on a dynamically assigned port and
+ * waits for it to initialize, preventing race conditions.
+ *
+ * The check for process.env.NODE_ENV !== "test" bypasses automatic server
+ * startup during tests. Instead, the beforeAll hook calls createServer,
+ * allowing tests to manage initialization, assign dynamic ports, and handle
+ * cleanup afterward.
+ */
 if (process.env.NODE_ENV !== "test") {
-  void createServer().then((s) => {
-    server = s;
+  void createServer().then((api) => {
+    server = api;
   });
 }
 
