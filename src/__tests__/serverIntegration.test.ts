@@ -14,6 +14,8 @@ interface GraphQLResponse {
   errors?: Array<{ message: string }>;
 }
 
+process.env.NODE_ENV = "test";
+
 let testServer: Server<typeof IncomingMessage, typeof ServerResponse>;
 
 beforeAll(async () => {
