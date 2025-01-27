@@ -215,6 +215,15 @@ const yoga: YogaServerInstance<object, object> = createYoga({
 
 app.use("/graphql", graphqlRateLimiter, validateToken, yoga);
 
+/**
+ * Catch-all middleware for handling undefined routes.
+ * Returns a 404 status with a JSON error message.
+ * Must be the last middleware in the stack.
+ */
+app.use((_, res: Response) => {
+  res.status(404).json({ message: "Not Found" });
+});
+
 const createServer = (customPort?: string): Promise<Server> => {
   const port: string = customPort ?? process.env.PORT ?? "3000";
   return new Promise((resolve, reject) => {

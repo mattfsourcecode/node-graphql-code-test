@@ -78,6 +78,15 @@ describe("GraphQL Server", () => {
       'Cannot query field "invalidField" on type "MenuItem".'
     );
   });
+
+  test("should return a 404 error for non-existent routes", async () => {
+    const response = await request(app)
+      .post("/api/non-existent-route")
+      .set("Content-Type", "application/json")
+      .expect(404);
+
+    expect(response.body).toHaveProperty("message", "Not Found");
+  });
 });
 
 // Close the test server after tests are complete
