@@ -1,5 +1,6 @@
 {
   "name": "node-graphql-code-test",
+  "packageManager": "pnpm@9.15.4",
   "version": "1.0.0",
   "description": "",
   "main": "dist/server.js",
