@@ -12,6 +12,7 @@ import { createYoga, createSchema, YogaServerInstance } from "graphql-yoga";
 import { typeDefs, resolvers } from "@/graphql";
 import { IncomingMessage, Server, ServerResponse } from "http";
 import dotenv from "dotenv";
+import { setServer, setupSignalHandlers } from "@/utils/signalHandlers";
 
 dotenv.config();
 
@@ -230,6 +231,7 @@ const createServer = (customPort?: string): Promise<Server> => {
     const server: Server<typeof IncomingMessage, typeof ServerResponse> =
       app.listen(port, () => {
         console.log(`Server is running on http://localhost:${port}/graphql`);
+        setServer(server);
         resolve(server);
       });
 
@@ -256,5 +258,8 @@ if (process.env.NODE_ENV !== "test") {
     server = api;
   });
 }
+
+// Signal handlers for graceful shutdown
+setupSignalHandlers();
 
 export { app, server, createServer };
