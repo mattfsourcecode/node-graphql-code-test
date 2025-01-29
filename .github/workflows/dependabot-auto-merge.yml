@@ -32,8 +32,8 @@ jobs:
           node-version: "lts/*"
           cache: pnpm
 
-      - name: Install dependencies
-        run: pnpm install --frozen-lockfile
+      - name: Install dependencies (skip prepare script)
+        run: pnpm install --frozen-lockfile --ignore-scripts
 
       - name: Check for lockfile conflicts
         id: check-conflict
