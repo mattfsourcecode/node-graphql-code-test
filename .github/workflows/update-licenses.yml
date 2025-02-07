@@ -1,0 +1,75 @@
+name: Update Licenses on Dependency Changes
+
+on:
+  pull_request:
+    branches:
+      - "**"
+    paths:
+      - "package.json"
+      - "pnpm-lock.yaml"
+    types:
+      - opened
+      - synchronize
+      - reopened
+
+permissions:
+  contents: write
+  pull-requests: write
+  actions: write
+
+jobs:
+  update-licenses:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.ref || 'master' }}
+          token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+
+      - name: Set up pnpm
+        uses: pnpm/action-setup@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "lts/*"
+          cache: pnpm
+
+      - name: Install direct dependencies (without shamefully-hoist)
+        run: pnpm install --frozen-lockfile --ignore-scripts
+
+      - name: Add license-checker globally
+        run: pnpm add -g license-checker
+
+      - name: Generate licenses for direct dependencies
+        run: license-checker --json > licenses_main-deps.json
+
+      - name: Reinstall all dependencies with transitive dependencies
+        run: pnpm install --frozen-lockfile --ignore-scripts --shamefully-hoist
+
+      - name: Generate licenses for all dependencies
+        run: license-checker --json > licenses_sub-deps.json
+
+      - name: Display license files content
+        run: |
+          echo "==== Direct Dependencies (licenses_main-deps.json) ===="
+          cat licenses_main-deps.json
+          echo "==== Transitive Dependencies (licenses_sub-deps.json) ===="
+          cat licenses_sub-deps.json
+
+      - name: Commit and push updated license files
+        env:
+          GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add licenses_main-deps.json licenses_sub-deps.json
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: Update license files"
+            git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}
+            git push origin HEAD:${{ github.event.pull_request.head.ref }}
+          else
+            echo "No changes to commit."
+          fi
