@@ -37,8 +37,7 @@ jobs:
           title: "chore: Update pnpm version via Corepack"
           body: "This pull request updates the pnpm version in package.json using Corepack."
           labels: update, dependencies
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
 
   auto-merge:
     needs: update-pnpm
