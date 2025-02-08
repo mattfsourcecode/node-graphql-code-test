@@ -24,7 +24,7 @@ jobs:
         run: npm install -g corepack
 
       - name: Update pnpm Version
-        run: corepack up
+        run: corepack up --ignore-scripts
 
       - name: Create a pull request
         id: create-pr
