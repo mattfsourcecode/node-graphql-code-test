@@ -680,7 +680,7 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@swc/cli",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@swc/cli/LICENSE"
   },
-  "@swc/core-linux-x64-gnu@1.10.15": {
+  "@swc/core-linux-x64-gnu@1.10.16": {
     "licenses": "Apache-2.0 AND MIT",
     "repository": "https://github.com/swc-project/swc",
     "publisher": "강동윤",
@@ -688,7 +688,7 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@swc/core-linux-x64-gnu",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@swc/core-linux-x64-gnu/README.md"
   },
-  "@swc/core-linux-x64-musl@1.10.15": {
+  "@swc/core-linux-x64-musl@1.10.16": {
     "licenses": "Apache-2.0 AND MIT",
     "repository": "https://github.com/swc-project/swc",
     "publisher": "강동윤",
@@ -696,7 +696,7 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@swc/core-linux-x64-musl",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@swc/core-linux-x64-musl/README.md"
   },
-  "@swc/core@1.10.15": {
+  "@swc/core@1.10.16": {
     "licenses": "Apache-2.0",
     "repository": "https://github.com/swc-project/swc",
     "publisher": "강동윤",
@@ -1469,7 +1469,7 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/cacheable-request",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/cacheable-request/README.md"
   },
-  "call-bind-apply-helpers@1.0.1": {
+  "call-bind-apply-helpers@1.0.2": {
     "licenses": "MIT",
     "repository": "https://github.com/ljharb/call-bind-apply-helpers",
     "publisher": "Jordan Harband",
@@ -1859,7 +1859,7 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/ejs",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/ejs/LICENSE"
   },
-  "electron-to-chromium@1.5.97": {
+  "electron-to-chromium@1.5.98": {
     "licenses": "ISC",
     "repository": "https://github.com/kilian/electron-to-chromium",
     "publisher": "Kilian Valkhof",
@@ -2347,7 +2347,7 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/glob",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/glob/LICENSE"
   },
-  "globals@15.14.0": {
+  "globals@15.15.0": {
     "licenses": "MIT",
     "repository": "https://github.com/sindresorhus/globals",
     "publisher": "Sindre Sorhus",
