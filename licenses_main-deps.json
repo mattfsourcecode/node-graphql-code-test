@@ -83,7 +83,7 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@swc/cli",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@swc/cli/LICENSE"
   },
-  "@swc/core@1.10.15": {
+  "@swc/core@1.10.16": {
     "licenses": "Apache-2.0",
     "repository": "https://github.com/swc-project/swc",
     "publisher": "강동윤",
@@ -212,7 +212,7 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/express",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/express/LICENSE"
   },
-  "globals@15.14.0": {
+  "globals@15.15.0": {
     "licenses": "MIT",
     "repository": "https://github.com/sindresorhus/globals",
     "publisher": "Sindre Sorhus",
