@@ -21,7 +21,7 @@
     "express-rate-limit": "^7.5.0",
     "graphql": "^16.10.0",
     "graphql-tag": "^2.12.6",
-    "graphql-yoga": "^5.11.0",
+    "graphql-yoga": "^5.12.0",
     "helmet": "^8.0.0",
     "morgan": "^1.10.0"
   },
@@ -30,7 +30,7 @@
     "@jest/types": "^29.6.3",
     "@swc-node/register": "^1.10.9",
     "@swc/cli": "^0.6.0",
-    "@swc/core": "^1.10.17",
+    "@swc/core": "^1.10.18",
     "@types/cors": "^2.8.17",
     "@types/express": "^5.0.0",
     "@types/jest": "^29.5.14",
