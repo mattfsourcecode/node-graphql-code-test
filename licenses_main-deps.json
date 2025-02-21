@@ -212,7 +212,7 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/express",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/express/LICENSE"
   },
-  "globals@15.15.0": {
+  "globals@16.0.0": {
     "licenses": "MIT",
     "repository": "https://github.com/sindresorhus/globals",
     "publisher": "Sindre Sorhus",
