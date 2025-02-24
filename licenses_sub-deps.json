@@ -301,21 +301,21 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@eslint/config-array",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@eslint/config-array/LICENSE"
   },
-  "@eslint/core@0.11.0": {
+  "@eslint/core@0.12.0": {
     "licenses": "Apache-2.0",
     "repository": "https://github.com/eslint/rewrite",
     "publisher": "Nicholas C. Zakas",
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@eslint/core",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@eslint/core/LICENSE"
   },
-  "@eslint/eslintrc@3.2.0": {
+  "@eslint/eslintrc@3.3.0": {
     "licenses": "MIT",
     "repository": "https://github.com/eslint/eslintrc",
     "publisher": "Nicholas C. Zakas",
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@eslint/eslintrc",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@eslint/eslintrc/LICENSE"
   },
-  "@eslint/js@9.20.0": {
+  "@eslint/js@9.21.0": {
     "licenses": "MIT",
     "repository": "https://github.com/eslint/eslint",
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@eslint/js",
@@ -328,14 +328,14 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@eslint/object-schema",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@eslint/object-schema/LICENSE"
   },
-  "@eslint/plugin-kit@0.2.6": {
+  "@eslint/plugin-kit@0.2.7": {
     "licenses": "Apache-2.0",
     "repository": "https://github.com/eslint/rewrite",
     "publisher": "Nicholas C. Zakas",
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@eslint/plugin-kit",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@eslint/plugin-kit/LICENSE"
   },
-  "@graphql-tools/executor@1.4.0": {
+  "@graphql-tools/executor@1.4.1": {
     "licenses": "MIT",
     "repository": "https://github.com/ardatan/graphql-tools",
     "publisher": "Saihajpreet Singh",
@@ -343,7 +343,7 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@graphql-tools/executor",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@graphql-tools/executor/README.md"
   },
-  "@graphql-tools/merge@9.0.19": {
+  "@graphql-tools/merge@9.0.20": {
     "licenses": "MIT",
     "repository": "https://github.com/ardatan/graphql-tools",
     "publisher": "Dotan Simha",
@@ -351,13 +351,13 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@graphql-tools/merge",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@graphql-tools/merge/README.md"
   },
-  "@graphql-tools/schema@10.0.18": {
+  "@graphql-tools/schema@10.0.19": {
     "licenses": "MIT",
     "repository": "https://github.com/ardatan/graphql-tools",
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@graphql-tools/schema",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@graphql-tools/schema/README.md"
   },
-  "@graphql-tools/utils@10.8.1": {
+  "@graphql-tools/utils@10.8.2": {
     "licenses": "MIT",
     "repository": "https://github.com/ardatan/graphql-tools",
     "publisher": "Dotan Simha",
@@ -415,7 +415,7 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@humanwhocodes/module-importer",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@humanwhocodes/module-importer/LICENSE"
   },
-  "@humanwhocodes/retry@0.4.1": {
+  "@humanwhocodes/retry@0.4.2": {
     "licenses": "Apache-2.0",
     "repository": "https://github.com/humanwhocodes/retry",
     "publisher": "Nicholas C. Zaks",
@@ -890,7 +890,7 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@types/morgan",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@types/morgan/LICENSE"
   },
-  "@types/node@22.13.4": {
+  "@types/node@22.13.5": {
     "licenses": "MIT",
     "repository": "https://github.com/DefinitelyTyped/DefinitelyTyped",
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@types/node",
@@ -1853,7 +1853,7 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/ejs",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/ejs/LICENSE"
   },
-  "electron-to-chromium@1.5.102": {
+  "electron-to-chromium@1.5.103": {
     "licenses": "ISC",
     "repository": "https://github.com/kilian/electron-to-chromium",
     "publisher": "Kilian Valkhof",
@@ -1959,7 +1959,7 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/eslint-visitor-keys",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/eslint-visitor-keys/LICENSE"
   },
-  "eslint@9.20.1": {
+  "eslint@9.21.0": {
     "licenses": "MIT",
     "repository": "https://github.com/eslint/eslint",
     "publisher": "Nicholas C. Zakas",
@@ -2299,7 +2299,7 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/get-caller-file",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/get-caller-file/LICENSE.md"
   },
-  "get-intrinsic@1.2.7": {
+  "get-intrinsic@1.3.0": {
     "licenses": "MIT",
     "repository": "https://github.com/ljharb/get-intrinsic",
     "publisher": "Jordan Harband",
@@ -4260,7 +4260,7 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/ts-api-utils",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/ts-api-utils/LICENSE.md"
   },
-  "ts-jest@29.2.5": {
+  "ts-jest@29.2.6": {
     "licenses": "MIT",
     "repository": "https://github.com/kulshekhar/ts-jest",
     "publisher": "Kulshekhar Kabra",
