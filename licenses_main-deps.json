@@ -54,7 +54,7 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@eslint/plugin-kit",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@eslint/plugin-kit/LICENSE"
   },
-  "@graphql-tools/utils@10.8.2": {
+  "@graphql-tools/utils@10.8.3": {
     "licenses": "MIT",
     "repository": "https://github.com/ardatan/graphql-tools",
     "publisher": "Dotan Simha",
@@ -83,7 +83,7 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@swc/cli",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@swc/cli/LICENSE"
   },
-  "@swc/core@1.10.18": {
+  "@swc/core@1.11.1": {
     "licenses": "Apache-2.0",
     "repository": "https://github.com/swc-project/swc",
     "publisher": "강동윤",
