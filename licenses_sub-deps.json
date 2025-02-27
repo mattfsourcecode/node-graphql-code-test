@@ -711,7 +711,7 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@swc/counter",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@swc/counter/README.md"
   },
-  "@swc/types@0.1.18": {
+  "@swc/types@0.1.19": {
     "licenses": "Apache-2.0",
     "repository": "https://github.com/swc-project/swc",
     "publisher": "강동윤",
@@ -1504,7 +1504,7 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/camelcase",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/camelcase/license"
   },
-  "caniuse-lite@1.0.30001700": {
+  "caniuse-lite@1.0.30001701": {
     "licenses": "CC-BY-4.0",
     "repository": "https://github.com/browserslist/caniuse-lite",
     "publisher": "Ben Briggs",
@@ -1860,7 +1860,7 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/ejs",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/ejs/LICENSE"
   },
-  "electron-to-chromium@1.5.105": {
+  "electron-to-chromium@1.5.107": {
     "licenses": "ISC",
     "repository": "https://github.com/kilian/electron-to-chromium",
     "publisher": "Kilian Valkhof",
@@ -2127,7 +2127,7 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/fast-safe-stringify",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/fast-safe-stringify/LICENSE"
   },
-  "fastq@1.19.0": {
+  "fastq@1.19.1": {
     "licenses": "ISC",
     "repository": "https://github.com/mcollina/fastq",
     "publisher": "Matteo Collina",
@@ -4375,7 +4375,7 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/unpipe",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/unpipe/LICENSE"
   },
-  "update-browserslist-db@1.1.2": {
+  "update-browserslist-db@1.1.3": {
     "licenses": "MIT",
     "repository": "https://github.com/browserslist/update-db",
     "publisher": "Andrey Sitnik",
