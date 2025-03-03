@@ -83,7 +83,7 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@swc/cli",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@swc/cli/LICENSE"
   },
-  "@swc/core@1.11.4": {
+  "@swc/core@1.11.5": {
     "licenses": "Apache-2.0",
     "repository": "https://github.com/swc-project/swc",
     "publisher": "강동윤",
@@ -307,7 +307,7 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/typescript-eslint",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/typescript-eslint/LICENSE"
   },
-  "typescript@5.7.3": {
+  "typescript@5.8.2": {
     "licenses": "Apache-2.0",
     "repository": "https://github.com/microsoft/TypeScript",
     "publisher": "Microsoft Corp.",
