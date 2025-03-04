@@ -335,7 +335,7 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@eslint/plugin-kit",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@eslint/plugin-kit/LICENSE"
   },
-  "@graphql-tools/executor@1.4.2": {
+  "@graphql-tools/executor@1.4.3": {
     "licenses": "MIT",
     "repository": "https://github.com/ardatan/graphql-tools",
     "publisher": "Saihajpreet Singh",
@@ -343,7 +343,7 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@graphql-tools/executor",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@graphql-tools/executor/README.md"
   },
-  "@graphql-tools/merge@9.0.21": {
+  "@graphql-tools/merge@9.0.22": {
     "licenses": "MIT",
     "repository": "https://github.com/ardatan/graphql-tools",
     "publisher": "Dotan Simha",
@@ -351,13 +351,13 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@graphql-tools/merge",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@graphql-tools/merge/README.md"
   },
-  "@graphql-tools/schema@10.0.20": {
+  "@graphql-tools/schema@10.0.21": {
     "licenses": "MIT",
     "repository": "https://github.com/ardatan/graphql-tools",
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@graphql-tools/schema",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@graphql-tools/schema/README.md"
   },
-  "@graphql-tools/utils@10.8.3": {
+  "@graphql-tools/utils@10.8.4": {
     "licenses": "MIT",
     "repository": "https://github.com/ardatan/graphql-tools",
     "publisher": "Dotan Simha",
@@ -890,7 +890,7 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@types/morgan",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@types/morgan/LICENSE"
   },
-  "@types/node@22.13.8": {
+  "@types/node@22.13.9": {
     "licenses": "MIT",
     "repository": "https://github.com/DefinitelyTyped/DefinitelyTyped",
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@types/node",
@@ -950,49 +950,49 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@types/yargs",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@types/yargs/LICENSE"
   },
-  "@typescript-eslint/eslint-plugin@8.25.0": {
+  "@typescript-eslint/eslint-plugin@8.26.0": {
     "licenses": "MIT",
     "repository": "https://github.com/typescript-eslint/typescript-eslint",
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@typescript-eslint/eslint-plugin",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@typescript-eslint/eslint-plugin/LICENSE"
   },
-  "@typescript-eslint/parser@8.25.0": {
+  "@typescript-eslint/parser@8.26.0": {
     "licenses": "MIT",
     "repository": "https://github.com/typescript-eslint/typescript-eslint",
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@typescript-eslint/parser",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@typescript-eslint/parser/LICENSE"
   },
-  "@typescript-eslint/scope-manager@8.25.0": {
+  "@typescript-eslint/scope-manager@8.26.0": {
     "licenses": "MIT",
     "repository": "https://github.com/typescript-eslint/typescript-eslint",
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@typescript-eslint/scope-manager",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@typescript-eslint/scope-manager/LICENSE"
   },
-  "@typescript-eslint/type-utils@8.25.0": {
+  "@typescript-eslint/type-utils@8.26.0": {
     "licenses": "MIT",
     "repository": "https://github.com/typescript-eslint/typescript-eslint",
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@typescript-eslint/type-utils",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@typescript-eslint/type-utils/LICENSE"
   },
-  "@typescript-eslint/types@8.25.0": {
+  "@typescript-eslint/types@8.26.0": {
     "licenses": "MIT",
     "repository": "https://github.com/typescript-eslint/typescript-eslint",
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@typescript-eslint/types",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@typescript-eslint/types/LICENSE"
   },
-  "@typescript-eslint/typescript-estree@8.25.0": {
+  "@typescript-eslint/typescript-estree@8.26.0": {
     "licenses": "MIT",
     "repository": "https://github.com/typescript-eslint/typescript-eslint",
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@typescript-eslint/typescript-estree",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@typescript-eslint/typescript-estree/LICENSE"
   },
-  "@typescript-eslint/utils@8.25.0": {
+  "@typescript-eslint/utils@8.26.0": {
     "licenses": "MIT",
     "repository": "https://github.com/typescript-eslint/typescript-eslint",
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@typescript-eslint/utils",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@typescript-eslint/utils/LICENSE"
   },
-  "@typescript-eslint/visitor-keys@8.25.0": {
+  "@typescript-eslint/visitor-keys@8.26.0": {
     "licenses": "MIT",
     "repository": "https://github.com/typescript-eslint/typescript-eslint",
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@typescript-eslint/visitor-keys",
@@ -1478,7 +1478,7 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/call-bind-apply-helpers",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/call-bind-apply-helpers/LICENSE"
   },
-  "call-bound@1.0.3": {
+  "call-bound@1.0.4": {
     "licenses": "MIT",
     "repository": "https://github.com/ljharb/call-bound",
     "publisher": "Jordan Harband",
@@ -1860,7 +1860,7 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/ejs",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/ejs/LICENSE"
   },
-  "electron-to-chromium@1.5.109": {
+  "electron-to-chromium@1.5.111": {
     "licenses": "ISC",
     "repository": "https://github.com/kilian/electron-to-chromium",
     "publisher": "Kilian Valkhof",
@@ -2400,7 +2400,7 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/graphql-tag",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/graphql-tag/LICENSE"
   },
-  "graphql-yoga@5.12.1": {
+  "graphql-yoga@5.12.2": {
     "licenses": "MIT",
     "repository": "https://github.com/dotansimha/graphql-yoga",
     "publisher": "Saihajpreet Singh",
@@ -4324,7 +4324,7 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/type-is",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/type-is/LICENSE"
   },
-  "typescript-eslint@8.25.0": {
+  "typescript-eslint@8.26.0": {
     "licenses": "MIT",
     "repository": "https://github.com/typescript-eslint/typescript-eslint",
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/typescript-eslint",
