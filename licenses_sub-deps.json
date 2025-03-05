@@ -264,7 +264,7 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@cspotcode/source-map-support",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@cspotcode/source-map-support/LICENSE.md"
   },
-  "@envelop/core@5.1.1": {
+  "@envelop/core@5.2.0": {
     "licenses": "MIT",
     "repository": "https://github.com/n1ru4l/envelop",
     "publisher": "Dotan Simha",
@@ -272,7 +272,15 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@envelop/core",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@envelop/core/LICENSE"
   },
-  "@envelop/types@5.1.1": {
+  "@envelop/instruments@1.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/n1ru4l/envelop",
+    "publisher": "Valentin Cocaud",
+    "email": "v.cocaud@gmail.com",
+    "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@envelop/instruments",
+    "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@envelop/instruments/LICENSE"
+  },
+  "@envelop/types@5.2.0": {
     "licenses": "MIT",
     "repository": "https://github.com/n1ru4l/envelop",
     "publisher": "Dotan Simha",
@@ -680,7 +688,7 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@swc/cli",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@swc/cli/LICENSE"
   },
-  "@swc/core-linux-x64-gnu@1.11.5": {
+  "@swc/core-linux-x64-gnu@1.11.7": {
     "licenses": "Apache-2.0 AND MIT",
     "repository": "https://github.com/swc-project/swc",
     "publisher": "강동윤",
@@ -688,7 +696,7 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@swc/core-linux-x64-gnu",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@swc/core-linux-x64-gnu/README.md"
   },
-  "@swc/core-linux-x64-musl@1.11.5": {
+  "@swc/core-linux-x64-musl@1.11.7": {
     "licenses": "Apache-2.0 AND MIT",
     "repository": "https://github.com/swc-project/swc",
     "publisher": "강동윤",
@@ -696,7 +704,7 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@swc/core-linux-x64-musl",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@swc/core-linux-x64-musl/README.md"
   },
-  "@swc/core@1.11.5": {
+  "@swc/core@1.11.7": {
     "licenses": "Apache-2.0",
     "repository": "https://github.com/swc-project/swc",
     "publisher": "강동윤",
@@ -1504,7 +1512,7 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/camelcase",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/camelcase/license"
   },
-  "caniuse-lite@1.0.30001701": {
+  "caniuse-lite@1.0.30001702": {
     "licenses": "CC-BY-4.0",
     "repository": "https://github.com/browserslist/caniuse-lite",
     "publisher": "Ben Briggs",
@@ -1860,7 +1868,7 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/ejs",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/ejs/LICENSE"
   },
-  "electron-to-chromium@1.5.111": {
+  "electron-to-chromium@1.5.112": {
     "licenses": "ISC",
     "repository": "https://github.com/kilian/electron-to-chromium",
     "publisher": "Kilian Valkhof",
