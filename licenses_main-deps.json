@@ -1,5 +1,5 @@
 {
-  "@eslint-community/eslint-utils@4.5.0": {
+  "@eslint-community/eslint-utils@4.5.1": {
     "licenses": "MIT",
     "repository": "https://github.com/eslint-community/eslint-utils",
     "publisher": "Toru Nagashima",
@@ -60,7 +60,7 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@eslint/plugin-kit",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@eslint/plugin-kit/LICENSE"
   },
-  "@graphql-tools/utils@10.8.4": {
+  "@graphql-tools/utils@10.8.6": {
     "licenses": "MIT",
     "repository": "https://github.com/ardatan/graphql-tools",
     "publisher": "Dotan Simha",
@@ -73,7 +73,7 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@jest/types",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@jest/types/LICENSE"
   },
-  "@swc-node/register@1.10.9": {
+  "@swc-node/register@1.10.10": {
     "licenses": "MIT",
     "repository": "https://github.com/swc-project/swc-node",
     "publisher": "LongYinan",
