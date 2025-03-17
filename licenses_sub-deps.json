@@ -1518,7 +1518,7 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/camelcase",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/camelcase/license"
   },
-  "caniuse-lite@1.0.30001704": {
+  "caniuse-lite@1.0.30001705": {
     "licenses": "CC-BY-4.0",
     "repository": "https://github.com/browserslist/caniuse-lite",
     "publisher": "Ben Briggs",
@@ -1874,7 +1874,7 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/ejs",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/ejs/LICENSE"
   },
-  "electron-to-chromium@1.5.118": {
+  "electron-to-chromium@1.5.119": {
     "licenses": "ISC",
     "repository": "https://github.com/kilian/electron-to-chromium",
     "publisher": "Kilian Valkhof",
@@ -3564,7 +3564,7 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/pirates",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/pirates/LICENSE"
   },
-  "piscina@4.8.0": {
+  "piscina@4.9.0": {
     "licenses": "MIT",
     "repository": "https://github.com/piscinajs/piscina",
     "publisher": "James M Snell",
