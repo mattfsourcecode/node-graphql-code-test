@@ -1874,7 +1874,7 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/ejs",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/ejs/LICENSE"
   },
-  "electron-to-chromium@1.5.121": {
+  "electron-to-chromium@1.5.123": {
     "licenses": "ISC",
     "repository": "https://github.com/kilian/electron-to-chromium",
     "publisher": "Kilian Valkhof",
@@ -4168,7 +4168,7 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/superagent",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/superagent/LICENSE"
   },
-  "supertest@7.0.0": {
+  "supertest@7.1.0": {
     "licenses": "MIT",
     "repository": "https://github.com/ladjs/supertest",
     "publisher": "TJ Holowaychuk",
@@ -4273,7 +4273,7 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/treeify",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/treeify/LICENSE"
   },
-  "ts-api-utils@2.0.1": {
+  "ts-api-utils@2.1.0": {
     "licenses": "MIT",
     "repository": "https://github.com/JoshuaKGoldberg/ts-api-utils",
     "publisher": "JoshuaKGoldberg",
