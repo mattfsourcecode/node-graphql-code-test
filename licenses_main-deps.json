@@ -291,7 +291,7 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/nodemon",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/nodemon/LICENSE"
   },
-  "supertest@7.0.0": {
+  "supertest@7.1.0": {
     "licenses": "MIT",
     "repository": "https://github.com/ladjs/supertest",
     "publisher": "TJ Holowaychuk",
