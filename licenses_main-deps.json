@@ -20,7 +20,7 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@eslint/config-array",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@eslint/config-array/LICENSE"
   },
-  "@eslint/config-helpers@0.1.0": {
+  "@eslint/config-helpers@0.2.0": {
     "licenses": "Apache-2.0",
     "repository": "https://github.com/eslint/rewrite",
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@eslint/config-helpers",
@@ -33,14 +33,14 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@eslint/core",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@eslint/core/LICENSE"
   },
-  "@eslint/eslintrc@3.3.0": {
+  "@eslint/eslintrc@3.3.1": {
     "licenses": "MIT",
     "repository": "https://github.com/eslint/eslintrc",
     "publisher": "Nicholas C. Zakas",
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@eslint/eslintrc",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@eslint/eslintrc/LICENSE"
   },
-  "@eslint/js@9.22.0": {
+  "@eslint/js@9.23.0": {
     "licenses": "MIT",
     "repository": "https://github.com/eslint/eslint",
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@eslint/js",
@@ -89,7 +89,7 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@swc/cli",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@swc/cli/LICENSE"
   },
-  "@swc/core@1.11.11": {
+  "@swc/core@1.11.12": {
     "licenses": "Apache-2.0",
     "repository": "https://github.com/swc-project/swc",
     "publisher": "강동윤",
@@ -194,7 +194,7 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/eslint-visitor-keys",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/eslint-visitor-keys/LICENSE"
   },
-  "eslint@9.22.0": {
+  "eslint@9.23.0": {
     "licenses": "MIT",
     "repository": "https://github.com/eslint/eslint",
     "publisher": "Nicholas C. Zakas",

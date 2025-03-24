@@ -309,7 +309,7 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@eslint/config-array",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@eslint/config-array/LICENSE"
   },
-  "@eslint/config-helpers@0.1.0": {
+  "@eslint/config-helpers@0.2.0": {
     "licenses": "Apache-2.0",
     "repository": "https://github.com/eslint/rewrite",
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@eslint/config-helpers",
@@ -322,14 +322,14 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@eslint/core",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@eslint/core/LICENSE"
   },
-  "@eslint/eslintrc@3.3.0": {
+  "@eslint/eslintrc@3.3.1": {
     "licenses": "MIT",
     "repository": "https://github.com/eslint/eslintrc",
     "publisher": "Nicholas C. Zakas",
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@eslint/eslintrc",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@eslint/eslintrc/LICENSE"
   },
-  "@eslint/js@9.22.0": {
+  "@eslint/js@9.23.0": {
     "licenses": "MIT",
     "repository": "https://github.com/eslint/eslint",
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@eslint/js",
@@ -694,7 +694,7 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@swc/cli",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@swc/cli/LICENSE"
   },
-  "@swc/core-linux-x64-gnu@1.11.11": {
+  "@swc/core-linux-x64-gnu@1.11.12": {
     "licenses": "Apache-2.0 AND MIT",
     "repository": "https://github.com/swc-project/swc",
     "publisher": "강동윤",
@@ -702,7 +702,7 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@swc/core-linux-x64-gnu",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@swc/core-linux-x64-gnu/README.md"
   },
-  "@swc/core-linux-x64-musl@1.11.11": {
+  "@swc/core-linux-x64-musl@1.11.12": {
     "licenses": "Apache-2.0 AND MIT",
     "repository": "https://github.com/swc-project/swc",
     "publisher": "강동윤",
@@ -710,7 +710,7 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@swc/core-linux-x64-musl",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@swc/core-linux-x64-musl/README.md"
   },
-  "@swc/core@1.11.11": {
+  "@swc/core@1.11.12": {
     "licenses": "Apache-2.0",
     "repository": "https://github.com/swc-project/swc",
     "publisher": "강동윤",
@@ -904,7 +904,7 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@types/morgan",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@types/morgan/LICENSE"
   },
-  "@types/node@22.13.10": {
+  "@types/node@22.13.11": {
     "licenses": "MIT",
     "repository": "https://github.com/DefinitelyTyped/DefinitelyTyped",
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@types/node",
@@ -1049,7 +1049,7 @@
     "email": "ardatanrikulu@gmail.com",
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@whatwg-node/promise-helpers"
   },
-  "@whatwg-node/server@0.10.1": {
+  "@whatwg-node/server@0.10.2": {
     "licenses": "MIT",
     "repository": "https://github.com/ardatan/whatwg-node",
     "publisher": "Arda TANRIKULU",
@@ -1518,7 +1518,7 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/camelcase",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/camelcase/license"
   },
-  "caniuse-lite@1.0.30001706": {
+  "caniuse-lite@1.0.30001707": {
     "licenses": "CC-BY-4.0",
     "repository": "https://github.com/browserslist/caniuse-lite",
     "publisher": "Ben Briggs",
@@ -1980,7 +1980,7 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/eslint-visitor-keys",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/eslint-visitor-keys/LICENSE"
   },
-  "eslint@9.22.0": {
+  "eslint@9.23.0": {
     "licenses": "MIT",
     "repository": "https://github.com/eslint/eslint",
     "publisher": "Nicholas C. Zakas",
