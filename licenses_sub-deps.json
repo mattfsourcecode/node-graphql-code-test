@@ -790,7 +790,7 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@types/babel__template",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@types/babel__template/LICENSE"
   },
-  "@types/babel__traverse@7.20.6": {
+  "@types/babel__traverse@7.20.7": {
     "licenses": "MIT",
     "repository": "https://github.com/DefinitelyTyped/DefinitelyTyped",
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@types/babel__traverse",
@@ -904,7 +904,7 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@types/morgan",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@types/morgan/LICENSE"
   },
-  "@types/node@22.13.13": {
+  "@types/node@22.13.14": {
     "licenses": "MIT",
     "repository": "https://github.com/DefinitelyTyped/DefinitelyTyped",
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@types/node",
@@ -1874,7 +1874,7 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/ejs",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/ejs/LICENSE"
   },
-  "electron-to-chromium@1.5.123": {
+  "electron-to-chromium@1.5.128": {
     "licenses": "ISC",
     "repository": "https://github.com/kilian/electron-to-chromium",
     "publisher": "Kilian Valkhof",
@@ -3555,7 +3555,7 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/picomatch",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/picomatch/LICENSE"
   },
-  "pirates@4.0.6": {
+  "pirates@4.0.7": {
     "licenses": "MIT",
     "repository": "https://github.com/danez/pirates",
     "publisher": "Ari Porad",
