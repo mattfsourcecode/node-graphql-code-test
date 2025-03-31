@@ -349,7 +349,7 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@eslint/plugin-kit",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@eslint/plugin-kit/LICENSE"
   },
-  "@graphql-tools/executor@1.4.6": {
+  "@graphql-tools/executor@1.4.7": {
     "licenses": "MIT",
     "repository": "https://github.com/ardatan/graphql-tools",
     "publisher": "Saihajpreet Singh",
