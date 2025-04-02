@@ -20,7 +20,7 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@eslint/config-array",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@eslint/config-array/LICENSE"
   },
-  "@eslint/config-helpers@0.2.0": {
+  "@eslint/config-helpers@0.2.1": {
     "licenses": "Apache-2.0",
     "repository": "https://github.com/eslint/rewrite",
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@eslint/config-helpers",
@@ -53,7 +53,7 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@eslint/object-schema",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@eslint/object-schema/LICENSE"
   },
-  "@eslint/plugin-kit@0.2.7": {
+  "@eslint/plugin-kit@0.2.8": {
     "licenses": "Apache-2.0",
     "repository": "https://github.com/eslint/rewrite",
     "publisher": "Nicholas C. Zakas",
@@ -89,7 +89,7 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@swc/cli",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@swc/cli/LICENSE"
   },
-  "@swc/core@1.11.13": {
+  "@swc/core@1.11.16": {
     "licenses": "Apache-2.0",
     "repository": "https://github.com/swc-project/swc",
     "publisher": "강동윤",
