@@ -608,13 +608,13 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@nodelib/fs.walk",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@nodelib/fs.walk/LICENSE"
   },
-  "@oxc-resolver/binding-linux-x64-gnu@5.0.1": {
+  "@oxc-resolver/binding-linux-x64-gnu@5.1.0": {
     "licenses": "MIT",
     "repository": "https://github.com/oxc-project/oxc-resolver",
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@oxc-resolver/binding-linux-x64-gnu",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@oxc-resolver/binding-linux-x64-gnu/README.md"
   },
-  "@oxc-resolver/binding-linux-x64-musl@5.0.1": {
+  "@oxc-resolver/binding-linux-x64-musl@5.1.0": {
     "licenses": "MIT",
     "repository": "https://github.com/oxc-project/oxc-resolver",
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@oxc-resolver/binding-linux-x64-musl",
@@ -904,7 +904,7 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@types/morgan",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@types/morgan/LICENSE"
   },
-  "@types/node@22.13.17": {
+  "@types/node@22.14.0": {
     "licenses": "MIT",
     "repository": "https://github.com/DefinitelyTyped/DefinitelyTyped",
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@types/node",
@@ -1509,7 +1509,7 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/camelcase",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/camelcase/license"
   },
-  "caniuse-lite@1.0.30001707": {
+  "caniuse-lite@1.0.30001709": {
     "licenses": "CC-BY-4.0",
     "repository": "https://github.com/browserslist/caniuse-lite",
     "publisher": "Ben Briggs",
@@ -1856,7 +1856,7 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/ejs",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/ejs/LICENSE"
   },
-  "electron-to-chromium@1.5.129": {
+  "electron-to-chromium@1.5.130": {
     "licenses": "ISC",
     "repository": "https://github.com/kilian/electron-to-chromium",
     "publisher": "Kilian Valkhof",
@@ -3403,7 +3403,7 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/osenv",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/osenv/LICENSE"
   },
-  "oxc-resolver@5.0.1": {
+  "oxc-resolver@5.1.0": {
     "licenses": "MIT",
     "repository": "https://github.com/oxc-project/oxc-resolver",
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/oxc-resolver",
@@ -4369,7 +4369,7 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/undefsafe",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/undefsafe/LICENSE"
   },
-  "undici-types@6.20.0": {
+  "undici-types@6.21.0": {
     "licenses": "MIT",
     "repository": "https://github.com/nodejs/undici",
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/undici-types",
