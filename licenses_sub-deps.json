@@ -302,7 +302,7 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@eslint-community/regexpp",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@eslint-community/regexpp/LICENSE"
   },
-  "@eslint/config-array@0.19.2": {
+  "@eslint/config-array@0.20.0": {
     "licenses": "Apache-2.0",
     "repository": "https://github.com/eslint/rewrite",
     "publisher": "Nicholas C. Zakas",
@@ -329,7 +329,7 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@eslint/eslintrc",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@eslint/eslintrc/LICENSE"
   },
-  "@eslint/js@9.23.0": {
+  "@eslint/js@9.24.0": {
     "licenses": "MIT",
     "repository": "https://github.com/eslint/eslint",
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@eslint/js",
@@ -608,13 +608,13 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@nodelib/fs.walk",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@nodelib/fs.walk/LICENSE"
   },
-  "@oxc-resolver/binding-linux-x64-gnu@5.1.0": {
+  "@oxc-resolver/binding-linux-x64-gnu@5.1.1": {
     "licenses": "MIT",
     "repository": "https://github.com/oxc-project/oxc-resolver",
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@oxc-resolver/binding-linux-x64-gnu",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@oxc-resolver/binding-linux-x64-gnu/README.md"
   },
-  "@oxc-resolver/binding-linux-x64-musl@5.1.0": {
+  "@oxc-resolver/binding-linux-x64-musl@5.1.1": {
     "licenses": "MIT",
     "repository": "https://github.com/oxc-project/oxc-resolver",
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@oxc-resolver/binding-linux-x64-musl",
@@ -1509,7 +1509,7 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/camelcase",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/camelcase/license"
   },
-  "caniuse-lite@1.0.30001709": {
+  "caniuse-lite@1.0.30001712": {
     "licenses": "CC-BY-4.0",
     "repository": "https://github.com/browserslist/caniuse-lite",
     "publisher": "Ben Briggs",
@@ -1856,7 +1856,7 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/ejs",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/ejs/LICENSE"
   },
-  "electron-to-chromium@1.5.131": {
+  "electron-to-chromium@1.5.132": {
     "licenses": "ISC",
     "repository": "https://github.com/kilian/electron-to-chromium",
     "publisher": "Kilian Valkhof",
@@ -1962,7 +1962,7 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/eslint-visitor-keys",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/eslint-visitor-keys/LICENSE"
   },
-  "eslint@9.23.0": {
+  "eslint@9.24.0": {
     "licenses": "MIT",
     "repository": "https://github.com/eslint/eslint",
     "publisher": "Nicholas C. Zakas",
@@ -3403,7 +3403,7 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/osenv",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/osenv/LICENSE"
   },
-  "oxc-resolver@5.1.0": {
+  "oxc-resolver@5.1.1": {
     "licenses": "MIT",
     "repository": "https://github.com/oxc-project/oxc-resolver",
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/oxc-resolver",
@@ -4338,7 +4338,7 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/typescript-eslint",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/typescript-eslint/LICENSE"
   },
-  "typescript@5.8.2": {
+  "typescript@5.8.3": {
     "licenses": "Apache-2.0",
     "repository": "https://github.com/microsoft/TypeScript",
     "publisher": "Microsoft Corp.",
