@@ -13,7 +13,7 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@eslint-community/regexpp",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@eslint-community/regexpp/LICENSE"
   },
-  "@eslint/config-array@0.19.2": {
+  "@eslint/config-array@0.20.0": {
     "licenses": "Apache-2.0",
     "repository": "https://github.com/eslint/rewrite",
     "publisher": "Nicholas C. Zakas",
@@ -40,7 +40,7 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@eslint/eslintrc",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@eslint/eslintrc/LICENSE"
   },
-  "@eslint/js@9.23.0": {
+  "@eslint/js@9.24.0": {
     "licenses": "MIT",
     "repository": "https://github.com/eslint/eslint",
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@eslint/js",
@@ -194,7 +194,7 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/eslint-visitor-keys",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/eslint-visitor-keys/LICENSE"
   },
-  "eslint@9.23.0": {
+  "eslint@9.24.0": {
     "licenses": "MIT",
     "repository": "https://github.com/eslint/eslint",
     "publisher": "Nicholas C. Zakas",
@@ -313,7 +313,7 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/typescript-eslint",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/typescript-eslint/LICENSE"
   },
-  "typescript@5.8.2": {
+  "typescript@5.8.3": {
     "licenses": "Apache-2.0",
     "repository": "https://github.com/microsoft/TypeScript",
     "publisher": "Microsoft Corp.",
