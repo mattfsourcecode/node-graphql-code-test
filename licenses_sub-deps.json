@@ -608,13 +608,13 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@nodelib/fs.walk",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@nodelib/fs.walk/LICENSE"
   },
-  "@oxc-resolver/binding-linux-x64-gnu@5.1.1": {
+  "@oxc-resolver/binding-linux-x64-gnu@5.2.0": {
     "licenses": "MIT",
     "repository": "https://github.com/oxc-project/oxc-resolver",
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@oxc-resolver/binding-linux-x64-gnu",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@oxc-resolver/binding-linux-x64-gnu/README.md"
   },
-  "@oxc-resolver/binding-linux-x64-musl@5.1.1": {
+  "@oxc-resolver/binding-linux-x64-musl@5.2.0": {
     "licenses": "MIT",
     "repository": "https://github.com/oxc-project/oxc-resolver",
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@oxc-resolver/binding-linux-x64-musl",
@@ -3403,7 +3403,7 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/osenv",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/osenv/LICENSE"
   },
-  "oxc-resolver@5.1.1": {
+  "oxc-resolver@5.2.0": {
     "licenses": "MIT",
     "repository": "https://github.com/oxc-project/oxc-resolver",
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/oxc-resolver",
