@@ -392,9 +392,9 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@graphql-yoga/logger",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@graphql-yoga/logger/LICENSE"
   },
-  "@graphql-yoga/subscription@5.0.3": {
+  "@graphql-yoga/subscription@5.0.4": {
     "licenses": "MIT",
-    "repository": "https://github.com/dotansimha/graphql-yoga",
+    "repository": "https://github.com/graphql-hive/graphql-yoga",
     "publisher": "Laurin Quast",
     "email": "laurinquast@googlemail.com",
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@graphql-yoga/subscription",
@@ -1856,7 +1856,7 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/ejs",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/ejs/LICENSE"
   },
-  "electron-to-chromium@1.5.134": {
+  "electron-to-chromium@1.5.135": {
     "licenses": "ISC",
     "repository": "https://github.com/kilian/electron-to-chromium",
     "publisher": "Kilian Valkhof",
@@ -2396,9 +2396,9 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/graphql-tag",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/graphql-tag/LICENSE"
   },
-  "graphql-yoga@5.13.2": {
+  "graphql-yoga@5.13.3": {
     "licenses": "MIT",
-    "repository": "https://github.com/dotansimha/graphql-yoga",
+    "repository": "https://github.com/graphql-hive/graphql-yoga",
     "publisher": "Saihajpreet Singh",
     "email": "saihajpreet.singh@gmail.com",
     "url": "https://saihaj.dev/",

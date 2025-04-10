@@ -233,9 +233,9 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/graphql-tag",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/graphql-tag/LICENSE"
   },
-  "graphql-yoga@5.13.2": {
+  "graphql-yoga@5.13.3": {
     "licenses": "MIT",
-    "repository": "https://github.com/dotansimha/graphql-yoga",
+    "repository": "https://github.com/graphql-hive/graphql-yoga",
     "publisher": "Saihajpreet Singh",
     "email": "saihajpreet.singh@gmail.com",
     "url": "https://saihaj.dev/",
