@@ -1509,7 +1509,7 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/camelcase",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/camelcase/license"
   },
-  "caniuse-lite@1.0.30001712": {
+  "caniuse-lite@1.0.30001713": {
     "licenses": "CC-BY-4.0",
     "repository": "https://github.com/browserslist/caniuse-lite",
     "publisher": "Ben Briggs",
@@ -1815,7 +1815,7 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/diff",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/diff/LICENSE"
   },
-  "dotenv@16.4.7": {
+  "dotenv@16.5.0": {
     "licenses": "BSD-2-Clause",
     "repository": "https://github.com/motdotla/dotenv",
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/dotenv",
@@ -1856,7 +1856,7 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/ejs",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/ejs/LICENSE"
   },
-  "electron-to-chromium@1.5.135": {
+  "electron-to-chromium@1.5.136": {
     "licenses": "ISC",
     "repository": "https://github.com/kilian/electron-to-chromium",
     "publisher": "Kilian Valkhof",
