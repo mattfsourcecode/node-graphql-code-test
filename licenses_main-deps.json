@@ -174,7 +174,7 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@typescript-eslint/visitor-keys",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@typescript-eslint/visitor-keys/LICENSE"
   },
-  "dotenv@16.4.7": {
+  "dotenv@16.5.0": {
     "licenses": "BSD-2-Clause",
     "repository": "https://github.com/motdotla/dotenv",
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/dotenv",
