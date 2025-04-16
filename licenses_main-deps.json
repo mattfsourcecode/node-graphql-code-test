@@ -81,7 +81,7 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@swc-node/register",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@swc-node/register/LICENSE"
   },
-  "@swc/cli@0.6.0": {
+  "@swc/cli@0.7.2": {
     "licenses": "MIT",
     "repository": "https://github.com/swc-project/pkgs",
     "publisher": "강동윤",
@@ -233,7 +233,7 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/graphql-tag",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/graphql-tag/LICENSE"
   },
-  "graphql-yoga@5.13.3": {
+  "graphql-yoga@5.13.4": {
     "licenses": "MIT",
     "repository": "https://github.com/graphql-hive/graphql-yoga",
     "publisher": "Saihajpreet Singh",
