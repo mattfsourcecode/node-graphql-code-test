@@ -1,5 +1,5 @@
 {
-  "@eslint-community/eslint-utils@4.6.0": {
+  "@eslint-community/eslint-utils@4.6.1": {
     "licenses": "MIT",
     "repository": "https://github.com/eslint-community/eslint-utils",
     "publisher": "Toru Nagashima",
