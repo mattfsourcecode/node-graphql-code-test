@@ -81,7 +81,7 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@swc-node/register",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@swc-node/register/LICENSE"
   },
-  "@swc/cli@0.7.2": {
+  "@swc/cli@0.7.3": {
     "licenses": "MIT",
     "repository": "https://github.com/swc-project/pkgs",
     "publisher": "강동윤",

@@ -694,7 +694,7 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@swc-node/sourcemap-support",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@swc-node/sourcemap-support/LICENSE"
   },
-  "@swc/cli@0.7.2": {
+  "@swc/cli@0.7.3": {
     "licenses": "MIT",
     "repository": "https://github.com/swc-project/pkgs",
     "publisher": "강동윤",
@@ -1856,7 +1856,7 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/ejs",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/ejs/LICENSE"
   },
-  "electron-to-chromium@1.5.137": {
+  "electron-to-chromium@1.5.138": {
     "licenses": "ISC",
     "repository": "https://github.com/kilian/electron-to-chromium",
     "publisher": "Kilian Valkhof",
