@@ -2264,7 +2264,7 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/form-data",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/form-data/License"
   },
-  "formidable@3.5.3": {
+  "formidable@3.5.4": {
     "licenses": "MIT",
     "repository": "https://github.com/node-formidable/formidable",
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/formidable",
