@@ -89,12 +89,13 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@swc/cli",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@swc/cli/LICENSE"
   },
-  "@swc/core@1.11.21": {
+  "@swc/core@1.11.22": {
     "licenses": "Apache-2.0",
     "repository": "https://github.com/swc-project/swc",
     "publisher": "강동윤",
     "email": "kdy1997.dev@gmail.com",
-    "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@swc/core"
+    "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@swc/core",
+    "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@swc/core/README.md"
   },
   "@types/cors@2.8.17": {
     "licenses": "MIT",
@@ -283,7 +284,7 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/README.md"
   },
-  "nodemon@3.1.9": {
+  "nodemon@3.1.10": {
     "licenses": "MIT",
     "repository": "https://github.com/remy/nodemon",
     "publisher": "Remy Sharp",
