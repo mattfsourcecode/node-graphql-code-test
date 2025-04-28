@@ -243,7 +243,7 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/graphql-yoga",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/graphql-yoga/LICENSE"
   },
-  "graphql@16.10.0": {
+  "graphql@16.11.0": {
     "licenses": "MIT",
     "repository": "https://github.com/graphql/graphql-js",
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/graphql",
