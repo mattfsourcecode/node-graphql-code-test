@@ -19,7 +19,7 @@
     "dotenv": "^16.5.0",
     "express": "^5.1.0",
     "express-rate-limit": "^7.5.0",
-    "graphql": "^16.10.0",
+    "graphql": "^16.11.0",
     "graphql-tag": "^2.12.6",
     "graphql-yoga": "^5.13.4",
     "helmet": "^8.1.0",
