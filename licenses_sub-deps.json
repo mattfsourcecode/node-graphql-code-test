@@ -309,7 +309,7 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@eslint/config-array",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@eslint/config-array/LICENSE"
   },
-  "@eslint/config-helpers@0.2.1": {
+  "@eslint/config-helpers@0.2.2": {
     "licenses": "Apache-2.0",
     "repository": "https://github.com/eslint/rewrite",
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@eslint/config-helpers",
@@ -1747,7 +1747,7 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/decompress-response",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/decompress-response/license"
   },
-  "dedent@1.5.3": {
+  "dedent@1.6.0": {
     "licenses": "MIT",
     "repository": "https://github.com/dmnd/dedent",
     "publisher": "Desmond Brand",
@@ -1872,7 +1872,7 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/ejs",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/ejs/LICENSE"
   },
-  "electron-to-chromium@1.5.147": {
+  "electron-to-chromium@1.5.149": {
     "licenses": "ISC",
     "repository": "https://github.com/kilian/electron-to-chromium",
     "publisher": "Kilian Valkhof",
