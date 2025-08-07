@@ -789,7 +789,7 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@swc/counter",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/@swc/counter/README.md"
   },
-  "@swc/types@0.1.23": {
+  "@swc/types@0.1.24": {
     "licenses": "Apache-2.0",
     "repository": "https://github.com/swc-project/swc",
     "publisher": "강동윤",
@@ -1930,7 +1930,7 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/ee-first",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/ee-first/LICENSE"
   },
-  "electron-to-chromium@1.5.196": {
+  "electron-to-chromium@1.5.198": {
     "licenses": "ISC",
     "repository": "https://github.com/kilian/electron-to-chromium",
     "publisher": "Kilian Valkhof",
@@ -4108,7 +4108,7 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/spdx-expression-parse",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/spdx-expression-parse/LICENSE"
   },
-  "spdx-license-ids@3.0.21": {
+  "spdx-license-ids@3.0.22": {
     "licenses": "CC0-1.0",
     "repository": "https://github.com/jslicense/spdx-license-ids",
     "publisher": "Shinnosuke Watanabe",
