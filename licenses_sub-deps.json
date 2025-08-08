@@ -1930,7 +1930,7 @@
     "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/ee-first",
     "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/ee-first/LICENSE"
   },
-  "electron-to-chromium@1.5.198": {
+  "electron-to-chromium@1.5.199": {
     "licenses": "ISC",
     "repository": "https://github.com/kilian/electron-to-chromium",
     "publisher": "Kilian Valkhof",
@@ -4179,8 +4179,8 @@
     "publisher": "Sindre Sorhus",
     "email": "sindresorhus@gmail.com",
     "url": "sindresorhus.com",
-    "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/string-width",
-    "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/string-width/license"
+    "path": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/string-width-cjs",
+    "licenseFile": "/home/runner/work/node-graphql-code-test/node-graphql-code-test/node_modules/string-width-cjs/license"
   },
   "strip-ansi@6.0.1": {
     "licenses": "MIT",
